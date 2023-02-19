@@ -35,16 +35,13 @@ def main():
         else:
             print(mismatch)
           
-    elif choice == "I":
+    else:
         text = input()
         mismatch = find_mismatch(text)
         if (mismatch == 0):
             print("Success")
         else:
             print(mismatch)
-          
-    else: 
-        print("error")
-
+   
 if __name__ == "__main__":
     main()
